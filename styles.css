@@ -1,0 +1,42 @@
+body,
+p,
+button {
+  margin: 0 0 0 0;
+  font-family: Roboto;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(190, 190, 190);
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0);
+}
+
+.title {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  font-size: 5vh;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+}
+
+.top-row {
+  border-style: solid;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.push-btn,
+.pop-btn {
+  background-color: rgb(2, 126, 3);
+}
